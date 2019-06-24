@@ -1,0 +1,22 @@
+.Detail {
+    margin: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;  
+    text-align: center;
+    .row {
+        align-items: center;
+        border-bottom: 2px solid grey;
+        padding: 1rem;
+        div:nth-child(2) {
+            flex:1;
+        }
+        li {
+            list-style-type: none
+        }
+        i {
+            margin-right: 1rem; 
+        }
+    }
+}
+
+

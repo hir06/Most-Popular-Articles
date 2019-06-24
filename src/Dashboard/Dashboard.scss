@@ -1,0 +1,15 @@
+
+.dashboard {
+  &__header {
+    background-color: #00bfa5;
+    a {
+      color: white !important;
+    }
+    .dropdown-item {
+      color: black !important;
+    }
+    li {
+      list-style-type: none;
+    }
+  }
+}
